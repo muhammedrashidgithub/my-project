@@ -33,6 +33,6 @@ jobs:
       with:
         image: muhammedrashid/docker
         registry: docker.io
-        username: muhammedrashidc12@gmail.com
+        username: muhammedrashiddevops@gmail.com
         password: R@shiddevops1
          
