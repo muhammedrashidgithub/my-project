@@ -28,11 +28,11 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v4
-      with:
-        image: muhammedrashid/docker
-        registry: docker.io
-        username: muhammedrashiddevops@gmail.com
-        password: R@shiddevops1
+    # - name: Build and Push Docker Image
+    #   uses: mr-smithers-excellent/docker-build-push@v4
+    #   with:
+    #     image: muhammedrashid/docker
+    #     registry: docker.io
+    #     username: muhammedrashiddevops@gmail.com
+    #     password: R@shiddevops1
          
